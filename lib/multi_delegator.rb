@@ -5,10 +5,6 @@ class MultiDelegator
     @delegatees = delegatees
   end
 
-  def add_delegatee(delegatee)
-    @delegatees << delegatee
-  end
-
 private
 
   def method_missing(meth, *a, &b)

@@ -1,7 +1,7 @@
 require './lib/multi_delegator'
 
 Gem::Specification.new do |s|
-  s.name    = "multi-delegator"
+  s.name    = "multi_delegator"
   s.version = MultiDelegator::VERSION
   s.summary = "Delegate method calls to multiple objects"
   s.license = 'MIT'
